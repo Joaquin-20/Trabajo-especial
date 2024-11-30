@@ -137,8 +137,7 @@ kbhit(void)
  * @details Windows has this functionality in conio.h
  * @see locate()
  */
-void
-gotoxy(int x, int y)
+void gotoxy(int x, int y)
 {
 #ifdef __cplusplus
 	rogueutil::
